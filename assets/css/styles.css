@@ -1,9 +1,22 @@
-body {font-family: 'EB Garamond', serif;;
+body {
+  font-family: 'Cairo', sans-serif;
 background-color: antiquewhite;
 color: black;
-
+}
+.blue {
+background-color:blue;
+text-align:center;
 }
 
+.white{
+  background-color:white;
+  text-align:center;
+  }
+
+  .red {
+    background-color: red;
+    text-align:center;
+    }
 p {
     margin-left:80px;
     margin-right:80px;
@@ -13,44 +26,11 @@ p {
     font-size:40px;
 }
 
-/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
-.icon-bar {
-    position: fixed;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
+
   
-  /* Style the icon bar links */
-  .icon-bar a {
-    display: block;
-    text-align: center;
-    padding: 20px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 30px;
-  }
   
-  /* Style the social media icons with color, if you want */
-  .icon-bar a:hover {
-    background-color: #000;
-  }
   
-  .facebook {
-    background: rgb(58, 153, 248);
-    color: white;
-  }
-  
-  .twitter {
-    background: rgb(2, 65, 128);
-    color: white;
-  }
-  
-  .youtube {
-    background: rgb(1, 16, 31);
-    color: white;
-  }
+ 
 
   .container {
     margin-left:20px;
