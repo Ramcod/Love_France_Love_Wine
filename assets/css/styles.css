@@ -45,6 +45,10 @@ p {
   .footer a:hover {
     color: white;
   }
- 
-
   
+ #map {
+   margin-top:4px;
+   border: solid black 1px;
+   height:500px;
+   width:100%;
+ }
