@@ -15,7 +15,7 @@ function initMap() {
         { lat: 47.278111, lng: 4.994210 },//Burgundy//
         { lat: 43.508530, lng: 2.346340 },//Languedoc-Rousillon//
         { lat: 47.355942, lng: -0.859410},//Loire-Valley//
-        { lat: 46.892181, lng: 6.729400 }//Provence//
+        { lat: 43.949318, lng: 4.805528 }//Provence//
     ];
 
     var markers = locations.map(function(location, i) {
