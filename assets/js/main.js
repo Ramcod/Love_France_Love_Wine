@@ -27,3 +27,26 @@ function initMap() {
 
     var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 }
+$(document).ready(function(){
+    // Activate Carousel with a specified interval
+    $("#myCarousel").carousel({interval: 10000});
+          
+    // Enable Carousel Indicators
+    $(".item1").click(function(){
+      $("#myCarousel").carousel(0);
+    });
+    $(".item2").click(function(){
+      $("#myCarousel").carousel(1);
+    });
+    $(".item3").click(function(){
+      $("#myCarousel").carousel(2);
+    });
+      
+    // Enable Carousel Controls
+    $(".carousel-control-prev").click(function(){
+      $("#myCarousel").carousel("prev");
+    });
+    $(".carousel-control-next").click(function(){
+      $("#myCarousel").carousel("next");
+    });
+  });
