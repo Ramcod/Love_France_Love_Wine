@@ -28,7 +28,9 @@ p {
   font-weight: bold;
 
 }
-
+h2 {
+  text-align:center;
+}
 .nav-link {
   font-size: 30px;
 }
@@ -82,12 +84,20 @@ p {
 button {
   display:block;
   margin: 20px auto;
-  background:darkorchid;
-  color: white;
-  border: 1px solid black;
+  background: red;
+  color: black;
+  font-weight: bold;
+  border: 2px solid black;
   padding: 6px 10px;
   font-size: 1.5rem;
-  box-shadow: darkslategrey;
+ box-shadow: black;
+}
+
+button:hover {
+  background-color: blue;
+}
+#submit:hover{
+  background-color: blue;
 }
 .popup-background {
   background: rgba(0,0,0,0.5);
