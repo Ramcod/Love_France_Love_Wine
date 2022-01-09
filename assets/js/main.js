@@ -50,7 +50,7 @@ function initMap() {
 $(document).ready(function () {
   // Activate Carousel with a specified interval
   $("#myCarousel").carousel({
-    interval: 8000
+    interval: 6000
   });
 
   // Enable Carousel Indicators
@@ -74,9 +74,9 @@ $(document).ready(function () {
 });
 
 // Pop up controls
-const button = document.querySelector('button');
-const popup = documment.querySelector('.popup-background');
+const button = document.querySelector("button");
+const popup = document.querySelector(".popup-background");
 
-button.addEventListener('click', () => {
-popup.style.display = 'block';
+button.addEventListener("click", () => {
+popup.style.display = "block";
 });
