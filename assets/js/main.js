@@ -1,3 +1,13 @@
+function myFunction() {
+  const inpObj = document.getElementById("id1");
+  if (!inpObj.checkValidity()) {
+    document.getElementById("message").innerHTML = "Please do not proceed to the Wine page";
+  } else {
+    document.getElementById("message").innerHTML = "Welcome to the site";
+  } 
+} 
+
+
 // Google maps
 function initMap() {
   var map = new google.maps.Map(document.getElementById("map"), {
