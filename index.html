@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,6 +14,7 @@
   <link rel="stylesheet" href="assets/css/styles.css">
   <title>Love France, Love Wine</title>
 </head>
+
 <body>
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <!-- Brand/logo -->
@@ -30,80 +32,94 @@
     </ul>
   </nav>
   <!-- Age-check tool -->
-  <container class="agecheck">
+  
     <div class="welcome">
       <p>Please select your age</p>
       <input id="id" type="number" min="18" max="150" required>
       <button onclick="popUp()">OK</button>
       <p id="message"></p>
     </div>
-  </container>
+ 
   <!-- French flag coloured columns with info-->
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-4 bg-primary">
-        <h2>What do I need to know about France?</h2>
+        <h3>What do I need to know about France?</h3>
         <hr>
-        <ol>
-          <li>Most visited country</li>
-          <p>A whopping 89.3 million people visited the country in 2018, making it the most visited destination in the
+        <dl>
+          <dt>The most visited country</dt>
+          <dd>A whopping 89.3 million people visited the country in 2018, making it the most
+            visited destination in the
             world. The country’s capital, Paris, is also the third most visited city in the world, behind Bangkok and
-            London.</p>
-          <li>We used to speak French!</li>
-          <p>French was the official language of England between 1066 and 1362. But after William the Conqueror led the
+            London.</dd>
+
+          <dt>We used to speak French!</dt>
+          <dd>French was the official language of England between 1066 and 1362. But after
+            William the Conqueror led the
             Norman conquest and subsequent occupation of England in 1066, he introduced Anglo-Norman French to the
-            nation.</p>
-          <li>Most expensive wine</li>
-          <p>A 73-year-old bottle of French Burgundy became the most expensive bottle of wine ever sold at auction,
-            fetching an eye-popping $558,000.</p>
-          <li>Not so cheesy</li>
-          <p>France produced around 1.7 million tons of cow’s milk cheese in 2018 alone. There are also around 1,600
-            distinct types of French cheese to try, which are grouped into eight categories. </p>
-          <li>Gastronomy</li>
-          <p>French gastronomy was awarded UNESCO World Heritage Status in 2010</p>
+            nation.</dd>
+
+          <dt>Most expensive wine</dt>
+          <dd>A 73-year-old bottle of French Burgundy became the most expensive bottle of wine ever sold at auction,
+            fetching an eye-popping $558,000.</dd>
+
+          <dt>Not so cheesy</dt>
+          <dd>France produced around 1.7 million tons of cow’s milk cheese in 2018 alone. There are also
+            around 1,600 distinct types of French cheese to try, which are grouped into eight categories. </dd>
+
+          <dt>Gastronomy</dt>
+          <dd>French gastronomy was awarded UNESCO World Heritage Status in 2010</dd>
+        </dl>
       </div>
       <div class="col-sm-4 bg-light">
-        <h2>What are some of the best things to eat in France?</h2>
+        <h3>What can I eat in France?</h3>
         <hr>
-        <ol>
-          <li>Tartiflette</li>
-          <p>It is made with potatoes, onions, lardons (bacon bits) and Reblochon cheese from the Savoy region of
-            France.</p>
-          <li>Truffles</li>
-          <p>Truffles are a type of fungus, like mushrooms, that occur naturally in wooded areas near oak trees. Popular
-            dishes made with truffles include foie gras with truffles.</p>
-          <li>Baguetttes</li>
-          <p>There is a specific requirement that was legislated in 1993 that a baguette needs to be made on the
-            premises where they are sold and can't be frozen or contain any additives or preservatives, containing 4
-            ingredients: wheat flour, water, salt and yeast.</p>
-          <li>Snails, otherwise known as, escargots</li>
-          <p>Some of the best snails in France come from the Burgundy region. Snails in France are served with rich
-            parsley and garlic butter sauce.</p>
-          <li>Steak Tartare</li>
-          <p>Perhaps my favourite! It is raw meat which is finely chopped, by hand, and seasoned. Onions, capers,
-            cornichons and a raw egg are added to complete the dish.</p>
-        </ol>
+        <dl>
+          <dt>Tartiflette</dt>
+          <dd>It is made with potatoes, onions, lardons (bacon bits) and Reblochon cheese from the Savoy region of
+            France.</dd>
+
+          <dt>Truffles</dt>
+          <dd>Truffles are a type of fungus, like mushrooms, that occur naturally in wooded areas near oak
+            trees. Popular dishes made with truffles include foie gras with truffles.</dd>
+
+          <dt>Baguetttes</dt>
+          <dd>There is a specific requirement that was legislated in 1993 that a baguette needs to be made
+            on the premises where they are sold and can't be frozen or contain any additives or preservatives,
+            containing 4
+            ingredients: wheat flour, water, salt and yeast.</dd>
+
+          <dt>Snails, otherwise known as, escargots</dt>
+          <dd>Some of the best snails in France come from the Burgundy region.Snails in France are served with rich
+            parsley and garlic butter sauce.</dd>
+
+          <dt>Steak Tartare</dt>
+          <dd>Perhaps my favourite! It is raw meat which is finely chopped, by hand, and seasoned. Onions,
+            capers, cornichons and a raw egg are added to complete the dish.</dd>
+        </dl>
       </div>
       <div class="col-sm-4 bg-danger">
-        <h2>What are some of the best things to see, or do, in France?</h2>
+        <h3>What can I go in France?</h3>
         <hr>
-        <ol>
-          <li>Mont St-Michel, Normandy</li>
-          <p>On the border between Brittany and Normandy lies the Abbaye du Mont Saint-Michel, a legendary abbey that
-            brings the artistry of medieval architecture and the forces of nature together.</p>
-          <li>Nîmes: Arenes de Nîmes</li>
-          <p>Arguably the best preserved Roman amphitheater there is to be seen, this arena has been a dominant factor
-            in the city of Nîmes for almost 2,000 years.</p>
-          <li>Carcassonne Medieval City</li>
-          <p>There are in fact two Carcassonnes: One is the famed walled city, and the other being the adjacent town
-            which spreads out at its base (ville basse).</p>
-          <li>Champagne-Ardenne: Champagne Route</li>
-          <p>The Champagne Route takes its meandering path throughout the region’s adorable villages, diverse vineyards,
-            and elegant champagne houses, where the owners patiently await the visitor to share in their passion.</p>
-          <li>Orange: Theatre Antique d’Orange</li>
-          <p>Built early on in the first century AD, the theater demonstrates such distinctive features that you’d be
-            forgiven for thinking that this was a particularly well-staged contemporary perplexity.</p>
-        </ol>
+        <dl>
+          <dt>Mont St-Michel, Normandy</dt>
+          <dd>On the border between Brittany and Normandy lies the Abbaye du Mont
+            Saint-Michel, a legendary abbey that brings the artistry of medieval architecture and the forces of nature
+            together.</dd>
+          <dt>Nîmes: Arenes de Nîmes</dt>
+          <dd>Arguably the best preserved Roman amphitheater there is to be seen, this arena has been a dominant factor
+            in the city of Nîmes for almost 2,000 years.</dd>
+          <dt>Carcassonne Medieval City</dt>
+          <dd>There are in fact two Carcassonnes: One is the famed walled city, and the other being the adjacent town
+            which spreads out at its base (ville basse).</dd>
+          <dt>Champagne-Ardenne: Champagne Route</dt>
+          <dd>The Champagne Route takes its meandering path throughout the region’s adorable villages, diverse
+            vineyards,
+            and elegant champagne houses, where the owners patiently await the visitor to share in their passion.</dd>
+          <dt>Orange: Theatre Antique d’Orange</dt>
+          <dd>Built early on in the first century AD, the theater demonstrates such distinctive features that you’d be
+            forgiven for thinking that this was a particularly well-staged contemporary perplexity.</dd>
+        </dl>
       </div>
     </div>
   </div>
@@ -150,4 +166,5 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
+
 </html>
