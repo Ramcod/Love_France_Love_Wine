@@ -1,11 +1,11 @@
-function myFunction() {
-  const inpObj = document.getElementById("id1");
+function popUp() {
+  const inpObj = document.getElementById("id");
   if (!inpObj.checkValidity()) {
     document.getElementById("message").innerHTML = "Please do not proceed to the Wine page";
   } else {
     document.getElementById("message").innerHTML = "Welcome to the site";
-  } 
-} 
+  }
+}
 
 
 // Google maps
@@ -89,15 +89,13 @@ const popup = document.querySelector(".popup-background");
 const close = document.querySelector(".popup-exit");
 
 button.addEventListener("click", () => {
-popup.style.display = "block";
+  popup.style.display = "block";
 });
 
 close.addEventListener("click", () => {
   popup.style.display = "none";
-  });
-  
-popup.addEventListener("click", () => {
-    popup.style.display = "none";
-    });
+});
 
-    
+popup.addEventListener("click", () => {
+  popup.style.display = "none";
+});

@@ -5,146 +5,149 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
-<!-- Load font awesome icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <!-- Load font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/styles.css">
   <title>Love France, Love Wine</title>
 </head>
 <body>
-
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <!-- Brand/logo -->
-  <a class="navbar-brand" href="index.html">
-    <img src="assets/images/background_297x187.jpg"  alt="Love France, Love Wine">
-  </a>
-  
-   <!-- Nav Links -->
-   <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="regions.html">Regions</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="wines.html">Wines</a>
-    </li>
-  </ul>
-</nav>
-<container class="agecheck">
-<div class="welcome">
-<p>Please select your age</p>
-
-<input id="id1" type="number" min="18" max="150" required>
-<button onclick="myFunction()">OK</button>
-<p id="message"></p>
-</div>
-</container>
-
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-4 bg-primary">
-      <h2>What do I need to know about France?</h2>
-      <hr>
-      <ol>
-        <li>Most visited country</li>
-        <p>A whopping 89.3 million people visited the country in 2018, making it the most visited destination in the world. The country’s capital, Paris, is also the third most visited city in the world, behind Bangkok and London.</p>
-        <li>We used to speak French!</li>
-        <p>French was the official language of England between 1066 and 1362. But after William the Conqueror led the Norman conquest and subsequent occupation of England in 1066, he introduced Anglo-Norman French to the nation.</p>
-        <li>Most expensive wine</li>
-        <p>A 73-year-old bottle of French Burgundy became the most expensive bottle of wine ever sold at auction, fetching an eye-popping $558,000.</p>
-        <li>Not so cheesy</li>
-        <p>France produced around 1.7 million tons of cow’s milk cheese in 2018 alone. There are also around 1,600 distinct types of French cheese to try, which are grouped into eight categories. </p>
-        <li>Gastronomy</li>
-        <p>French gastronomy was awarded UNESCO World Heritage Status in 2010</p>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/images/background_image.jpg" alt="Love France, Love Wine">
+    </a>
+    <!-- Nav Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="regions.html">Regions</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="wines.html">Wines</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- Age-check tool -->
+  <container class="agecheck">
+    <div class="welcome">
+      <p>Please select your age</p>
+      <input id="id" type="number" min="18" max="150" required>
+      <button onclick="popUp()">OK</button>
+      <p id="message"></p>
     </div>
-    <div class="col-sm-4 bg-light">
-      <h2>What are some of the best things to eat in France?</h2>
-      <hr>
-      <ol>
-        <li>Tartiflette</li>
-        <p>It is made with potatoes, onions, lardons (bacon bits) and  Reblochon cheese from the Savoy region of France.</p>
-        <li>Truffles</li>
-          <p>Truffles are a type of fungus, like mushrooms, that occur naturally in wooded areas near oak trees. Popular dishes made with truffles include foie gras with truffles.</p>
-        
-        <li>Baguetttes</li>
-          <p>There is a specific requirement that was legislated in 1993 that a baguette needs to be made on the premises where they are sold and can't be frozen or contain any additives or preservatives, containing 4 ingredients: wheat flour, water, salt and yeast.</p>
-       
-        <li>Snails, otherwise known as, escargots</li>
-          <p>Some of the best snails in France come from the Burgundy region. Snails in France are served with rich parsley and garlic butter sauce.</p>
-       
-        <li>Steak Tartare</li>
-          <p>Perhaps my favourite! It is raw meat which is finely chopped, by hand, and seasoned. Onions, capers, cornichons and a raw egg are added to complete the dish.</p>
-        
-      </ol>
-    </div>
-    <div class="col-sm-4 bg-danger">
-      <h2>What are some of the best things to see, or do, in France?</h2>
-      <hr>
-      <ol>
-        <li>Mont St-Michel, Normandy</li>
-        <p>On the border between Brittany and Normandy lies the Abbaye du Mont Saint-Michel, a legendary abbey that brings the artistry of medieval architecture and the forces of nature together.</p>
-        <li>Nîmes: Arenes de Nîmes</li>
-        <p>Arguably the best preserved Roman amphitheater there is to be seen, this arena has been a dominant factor in the city of Nîmes for almost 2,000 years.</p>
-        <li>Carcassonne Medieval City</li>
-        <p>There are in fact two Carcassonnes: One is the famed walled city, and the other being the adjacent town which spreads out at its base (ville basse).</p>
-        <li>Champagne-Ardenne: Champagne Route</li>
-        <p>The Champagne Route takes its meandering path throughout the region’s adorable villages, diverse vineyards, and elegant champagne houses, where the owners patiently await the visitor to share in their passion.</p>
-        <li>Orange: Theatre Antique d’Orange</li>
-        <p>Built early on in the first century AD, the theater demonstrates such distinctive features that you’d be forgiven for thinking that this was a particularly well-staged contemporary perplexity.</p>
+  </container>
+  <!-- French flag coloured columns with info-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4 bg-primary">
+        <h2>What do I need to know about France?</h2>
+        <hr>
+        <ol>
+          <li>Most visited country</li>
+          <p>A whopping 89.3 million people visited the country in 2018, making it the most visited destination in the
+            world. The country’s capital, Paris, is also the third most visited city in the world, behind Bangkok and
+            London.</p>
+          <li>We used to speak French!</li>
+          <p>French was the official language of England between 1066 and 1362. But after William the Conqueror led the
+            Norman conquest and subsequent occupation of England in 1066, he introduced Anglo-Norman French to the
+            nation.</p>
+          <li>Most expensive wine</li>
+          <p>A 73-year-old bottle of French Burgundy became the most expensive bottle of wine ever sold at auction,
+            fetching an eye-popping $558,000.</p>
+          <li>Not so cheesy</li>
+          <p>France produced around 1.7 million tons of cow’s milk cheese in 2018 alone. There are also around 1,600
+            distinct types of French cheese to try, which are grouped into eight categories. </p>
+          <li>Gastronomy</li>
+          <p>French gastronomy was awarded UNESCO World Heritage Status in 2010</p>
+      </div>
+      <div class="col-sm-4 bg-light">
+        <h2>What are some of the best things to eat in France?</h2>
+        <hr>
+        <ol>
+          <li>Tartiflette</li>
+          <p>It is made with potatoes, onions, lardons (bacon bits) and Reblochon cheese from the Savoy region of
+            France.</p>
+          <li>Truffles</li>
+          <p>Truffles are a type of fungus, like mushrooms, that occur naturally in wooded areas near oak trees. Popular
+            dishes made with truffles include foie gras with truffles.</p>
+          <li>Baguetttes</li>
+          <p>There is a specific requirement that was legislated in 1993 that a baguette needs to be made on the
+            premises where they are sold and can't be frozen or contain any additives or preservatives, containing 4
+            ingredients: wheat flour, water, salt and yeast.</p>
+          <li>Snails, otherwise known as, escargots</li>
+          <p>Some of the best snails in France come from the Burgundy region. Snails in France are served with rich
+            parsley and garlic butter sauce.</p>
+          <li>Steak Tartare</li>
+          <p>Perhaps my favourite! It is raw meat which is finely chopped, by hand, and seasoned. Onions, capers,
+            cornichons and a raw egg are added to complete the dish.</p>
         </ol>
+      </div>
+      <div class="col-sm-4 bg-danger">
+        <h2>What are some of the best things to see, or do, in France?</h2>
+        <hr>
+        <ol>
+          <li>Mont St-Michel, Normandy</li>
+          <p>On the border between Brittany and Normandy lies the Abbaye du Mont Saint-Michel, a legendary abbey that
+            brings the artistry of medieval architecture and the forces of nature together.</p>
+          <li>Nîmes: Arenes de Nîmes</li>
+          <p>Arguably the best preserved Roman amphitheater there is to be seen, this arena has been a dominant factor
+            in the city of Nîmes for almost 2,000 years.</p>
+          <li>Carcassonne Medieval City</li>
+          <p>There are in fact two Carcassonnes: One is the famed walled city, and the other being the adjacent town
+            which spreads out at its base (ville basse).</p>
+          <li>Champagne-Ardenne: Champagne Route</li>
+          <p>The Champagne Route takes its meandering path throughout the region’s adorable villages, diverse vineyards,
+            and elegant champagne houses, where the owners patiently await the visitor to share in their passion.</p>
+          <li>Orange: Theatre Antique d’Orange</li>
+          <p>Built early on in the first century AD, the theater demonstrates such distinctive features that you’d be
+            forgiven for thinking that this was a particularly well-staged contemporary perplexity.</p>
+        </ol>
+      </div>
     </div>
   </div>
-</div>
-
-<!--Carousel-->
-<div class="container mt-3">
-  <div id="myCarousel" class="carousel slide">
-  
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li class="item1 active"></li>
-    <li class="item2"></li>
-    <li class="item3"></li>
-  </ul>
-  
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="assets/images/bread.jpg" alt="French bread" width="1100" height="500">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/cheese.jpg" alt="French cheese" width="1100" height="500">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/snails.jpg" alt="Snails" width="1100" height="500">
+  <!--Carousel-->
+  <div class="container mt-3">
+    <div id="myCarousel" class="carousel slide">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li class="item1 active"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+      </ul>
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/bread.jpg" alt="French bread" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/cheese.jpg" alt="French cheese" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/snails.jpg" alt="Snails" width="1100" height="500">
+        </div>
+      </div>
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#myCarousel">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel">
+        <span class="carousel-control-next-icon"></span>
+      </a>
     </div>
   </div>
-  
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#myCarousel">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#myCarousel">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div>
-</div>
-
- <!-- Footer and Social media -->
-<footer class="footer">
-  <div class="container text-center">
-    <a href="https://en-gb.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-    <a href="https://twitter.com/home" target="_blank"><i class="fa fa-twitter"></i></a>
-    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
-    
-  </div>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <!-- Footer and Social media -->
+  <footer class="footer">
+    <div class="container text-center">
+      <a href="https://en-gb.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="https://twitter.com/home" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/main.js"></script>
-
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

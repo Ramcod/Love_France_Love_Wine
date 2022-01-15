@@ -1,3 +1,4 @@
+/* Background color and font styles throughout*/
 body {
   font-family: 'Cairo', sans-serif;
   background-color: antiquewhite;
@@ -18,13 +19,13 @@ body {
 .agecheck {
   text-align:center;
   border:solid black 1px;
-  background-color: lightslategray;
+  background-color: white;
 }
 hr {
   border: solid 2px black;
 
 }
-
+/* Lists on French flag- index*/
 li {
   font-weight: bold;
   font-size: 1.2rem;
@@ -40,10 +41,11 @@ p {
 h2 {
   text-align:center;
 }
+/* Links to html pages*/
 .nav-link {
   font-size: 30px;
 }
-
+/* Links within cards*/
 .region-link {
   color: blue;
   font-style: italic;
@@ -53,7 +55,12 @@ h2 {
   font-style: italic;
 }
 
-
+.card-deck {
+  margin:0 auto;
+  margin-top: 6px;
+  margin-bottom:8px;
+}
+/* Footer and social media elements*/
 .footer {
   background: slategrey;
   padding: 20px 0;
@@ -75,6 +82,7 @@ h2 {
   color: white;
 }
 
+/* Google map*/
 #map {
   margin-top: 4px;
   margin-bottom: 4px;
@@ -83,15 +91,32 @@ h2 {
   width: 100%;
 }
 
-
+/* Carousel on index */
 .carousel-inner img {
   width: 100%;
   height: 100%;
   margin-top:4px;
   margin-bottom: 4px;
 }
+/* Wine button styling*/
+.winebut {
+  display:block;
+  margin: 20px auto;
+  background: mediumslateblue;
+  color: black;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 6px 10px;
+  font-size: 1.5rem;
+ box-shadow: black;
+}
 
-button {
+button:hover {
+  background-color: blue;
+}
+
+/* Age checker button*/
+button onclick {
   display:block;
   margin: 20px auto;
   background: red;
@@ -106,7 +131,7 @@ button {
 button:hover {
   background-color: blue;
 }
-
+/* Styling for pop up on wine page*/
 .popup-background {
   background: rgba(0,0,0,0.5);
   position: fixed;
